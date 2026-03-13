@@ -3,7 +3,7 @@
  Model : NorthWind
 **/
 
-DROP SCHEMA northwind CASCADE;
+DROP SCHEMA IF EXISTS  northwind;
 CREATE SCHEMA northwind;
 USE northwind;
 
