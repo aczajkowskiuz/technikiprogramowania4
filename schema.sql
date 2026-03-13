@@ -8,8 +8,8 @@ DROP SCHEMA IF EXISTS northwind;
 CREATE SCHEMA northwind;
 USE northwind;
 
-/* Table: user (Application Users) */
-CREATE TABLE user (
+/* Table: users (Application Users) */
+CREATE TABLE users (
     user_id     NVARCHAR(20) NOT NULL,
     password    NVARCHAR(20) NOT NULL,
     first_name  NVARCHAR(50) ,
